@@ -25,14 +25,14 @@ SQL> DECLARE
       v_dob Person.DOB%TYPE;
       v_age NUMBER;
     BEGIN
-    OPEN person_cur;
-    LOOP
-      FETCH person_cur INTO v_pid, v_name, v_dob;
-      EXIT WHEN person_cur%NOTFOUND;
-      v_age := TRUNC(MONTHS_BETWEEN(SYSDATE, v_dob) / 12);
-      DBMS_OUTPUT.PUT_LINE('PID: ' || v_pid || ' Name: ' || v_name || ' Age: ' || v_age);
-    END LOOP;
-  CLOSE person_cur;
+      OPEN person_cur;
+      LOOP
+        FETCH person_cur INTO v_pid, v_name, v_dob;
+        EXIT WHEN person_cur%NOTFOUND;
+        v_age := TRUNC(MONTHS_BETWEEN(SYSDATE, v_dob) / 12);
+        DBMS_OUTPUT.PUT_LINE('PID: ' || v_pid || ' Name: ' || v_name || ' Age: ' || v_age);
+      END LOOP;
+      CLOSE person_cur;
   END;
   /
 
