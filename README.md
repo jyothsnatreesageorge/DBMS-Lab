@@ -85,3 +85,22 @@
 		9.For each customer produce a list of total saving balance,loan balance for those branches where he has eitehr a loan or saving account or both.   
 
 	EXPERIMENT 7
+		A student academic system is to be maintained in an engineering college and should have the following facilities.   
+		a.The system should keep   
+			i.Student details(student name,rollno,utyreg no,address,uyear of admn,year of pas out,branch,class teacher,email id,phoneno).   
+			ii.The details of course qualifications(total and the garde(first class,second class and distinction)).   
+			iii.The details of the project work done by each student(project title,project guide(a faculty from the college),period of implementation of the project,core area).   
+			iv.The faculty details(faculty name,faculty id,email id,designation.,joining date,relieved date).   
+		b.The system msut have the facility to give answers to the following questions.   
+			i.The names,rollno and address of the students who have completed the course under a given branch for a year.   
+			ii.The names and rollnos of the students who have completed the course under a given branch for each year.   
+			iii.The details of the project undertaken by studnets of a particular branch.   
+			iv.The names of faculties who have guided more than a specified number of projects in each academic year.   
+			v.The branch with highest academic performance chosen for each academic year.   
+			vi.The details of the students who scored the highest total for each branch and for each academic year.   
+			vii.The list of students who secured a given grade for a given academic year.   
+			viii.The klist of projects undertaken by each department together with the project guide name and email id for each academic year under a given core area.   
+			ix.The number of total grade for each branch of study and for each year of admission.   
+			x.The details of students in each branch admitted in a specified academic year.   
+			xi.The details of students sorted on the basis of year of admission and bracnh of study.   
+			xii.The best mark,worst mark and average mark for each branch for a given academic year.   
