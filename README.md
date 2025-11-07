@@ -104,3 +104,31 @@
 			x.The details of students in each branch admitted in a specified academic year.   
 			xi.The details of students sorted on the basis of year of admission and bracnh of study.   
 			xii.The best mark,worst mark and average mark for each branch for a given academic year.   
+
+***PLSQL EXPERIMENTS***   
+
+	1.Write a PL/SQL code to check whether a number is even or odd.   
+	2.Write a PL/SQL code to check whether a number is prime or not.   
+	3.Write a PL/SQL code to find the factorial of a given number.   
+	4.Write a PL/SQL code to check whether a number is perfect or not.   
+	5.Write a PL/SQL code to find the first n terms of a fibonacci series.   
+	6.Write a PL/SQL code to create a calculator.   
+	7.Write a PL/SQL code to check whether a string is palindrome or not.   
+
+***CURSOR EXPERIMENTS***   
+
+	EXPERIMEMNT 1   
+	Given the schema PERSON(PID,PNAME,DOB).Find the age of each person using cursor.   
+	
+	EXPERIMENT 2   
+	Given the schemaEMPLOYEE(EMPID,EMPNAME,JOINING_DATE,RELIEVING_DATE,SALARY).   
+		a.FInd the serivice(in years) for each relieved employee.   
+		b.Find the pension amount to be paid to each relieved employee.(Pension is eqaul to the years of service*salary divided by 100).   
+
+***TRIGGER EXPERIMENTS***   
+
+	EXPERIMENT 1   
+		The following table shows the salary information of employees in a company.EMPLOYEE(EMPID,EMPNAME,DESIGNATION,DEPT,SALARY).Write a trigger that displays the total number of tuples in the relation on each insertion,updation and deletion.   
+
+	EXPERIMENT 2   
+		The following table shows the salary information of employees in a company.EMPLOYEE(EMPID,EMPNAME,SALARY).Write a trigger that causes the insertion of a new entry into the table INCREMENT(EMPID,INCR) if the difference arising in the updation of salary of an existing employee is greater than Rs.1000.   
