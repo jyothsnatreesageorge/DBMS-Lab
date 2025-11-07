@@ -121,8 +121,8 @@
 	Given the schema PERSON(PID,PNAME,DOB).Find the age of each person using cursor.   
 	
 	EXPERIMENT 2   
-	Given the schemaEMPLOYEE(EMPID,EMPNAME,JOINING_DATE,RELIEVING_DATE,SALARY).   
-		a.FInd the serivice(in years) for each relieved employee.   
+	Given the schema EMPLOYEE(EMPID,EMPNAME,JOINING_DATE,RELIEVING_DATE,SALARY).   
+		a.FInd the service(in years) for each relieved employee.   
 		b.Find the pension amount to be paid to each relieved employee.(Pension is eqaul to the years of service*salary divided by 100).   
 
 ***TRIGGER EXPERIMENTS***   
